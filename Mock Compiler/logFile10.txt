@@ -1,0 +1,1022 @@
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v declared as int;(a declared as Ref(int);(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v declared as int
+(a declared as Ref(int);(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as Ref(int);(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a)))))))
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as Ref(int)
+(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))))
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))))
+
+
+SymTable:
+a --> (0,int)
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=10
+(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a)))))
+
+
+SymTable:
+a --> (0,int)
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a)))))
+
+
+SymTable:
+a --> (0,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a alloc to 22
+(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))
+
+
+SymTable:
+a --> (0,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+fork((wH(a,30);(v=32;(Print v;Print rH(a)))))
+(v=80;(Print v;Print rH(a)))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v=80;(Print v;Print rH(a)))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(wH(a,30);(v=32;(Print v;Print rH(a))))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=80
+(Print v;Print rH(a))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+wH(a,30)
+(v=32;(Print v;Print rH(a)))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print v;Print rH(a))
+
+
+SymTable:
+a --> (1,int)
+v --> 80
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(v=32;(Print v;Print rH(a)))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+Print rH(a)
+
+
+SymTable:
+a --> (1,int)
+v --> 80
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+v=32
+(Print v;Print rH(a))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print rH(a)
+
+
+SymTable:
+a --> (1,int)
+v --> 80
+
+
+Out:
+80
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(Print v;Print rH(a))
+
+
+SymTable:
+a --> (1,int)
+v --> 32
+
+
+Out:
+80
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> (1,int)
+v --> 80
+
+
+Out:
+80
+30
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+Print v
+Print rH(a)
+
+
+SymTable:
+a --> (1,int)
+v --> 32
+
+
+Out:
+80
+30
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+Print rH(a)
+
+
+SymTable:
+a --> (1,int)
+v --> 32
+
+
+Out:
+80
+30
+32
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+
+
+SymTable:
+a --> (1,int)
+v --> 32
+
+
+Out:
+80
+30
+32
+30
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(v declared as int;(a declared as Ref(int);(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+v declared as int
+(a declared as Ref(int);(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(a declared as Ref(int);(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a)))))))
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+a declared as Ref(int)
+(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))))
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(v=10;(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))))
+
+
+SymTable:
+a --> (0,int)
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+v=10
+(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a)))))
+
+
+SymTable:
+a --> (0,int)
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(a alloc to 22;(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a)))))
+
+
+SymTable:
+a --> (0,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+a alloc to 22
+(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))
+
+
+SymTable:
+a --> (0,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(fork((wH(a,30);(v=32;(Print v;Print rH(a)))));(v=80;(Print v;Print rH(a))))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+fork((wH(a,30);(v=32;(Print v;Print rH(a)))))
+(v=80;(Print v;Print rH(a)))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(v=80;(Print v;Print rH(a)))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+(wH(a,30);(v=32;(Print v;Print rH(a))))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+v=80
+(Print v;Print rH(a))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+wH(a,30)
+(v=32;(Print v;Print rH(a)))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 22
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(Print v;Print rH(a))
+
+
+SymTable:
+a --> (1,int)
+v --> 80
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+(v=32;(Print v;Print rH(a)))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+Print v
+Print rH(a)
+
+
+SymTable:
+a --> (1,int)
+v --> 80
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+v=32
+(Print v;Print rH(a))
+
+
+SymTable:
+a --> (1,int)
+v --> 10
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+Print rH(a)
+
+
+SymTable:
+a --> (1,int)
+v --> 80
+
+
+Out:
+80
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+(Print v;Print rH(a))
+
+
+SymTable:
+a --> (1,int)
+v --> 32
+
+
+Out:
+80
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+
+
+SymTable:
+a --> (1,int)
+v --> 80
+
+
+Out:
+80
+30
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+Print v
+Print rH(a)
+
+
+SymTable:
+a --> (1,int)
+v --> 32
+
+
+Out:
+80
+30
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+Print rH(a)
+
+
+SymTable:
+a --> (1,int)
+v --> 32
+
+
+Out:
+80
+30
+32
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+
+
+SymTable:
+a --> (1,int)
+v --> 32
+
+
+Out:
+80
+30
+32
+30
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 30
+

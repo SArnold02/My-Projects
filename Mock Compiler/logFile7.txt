@@ -1,0 +1,1587 @@
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(v declared as int;(v=4;(while(v>0){(Print v;v=v-1)};Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v declared as int
+(v=4;(while(v>0){(Print v;v=v-1)};Print v))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(v=4;(while(v>0){(Print v;v=v-1)};Print v))
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=4
+(while(v>0){(Print v;v=v-1)};Print v)
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(while(v>0){(Print v;v=v-1)};Print v)
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 0
+
+
+Out:
+4
+3
+2
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+v --> 0
+
+
+Out:
+4
+3
+2
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+
+
+SymTable:
+v --> 0
+
+
+Out:
+4
+3
+2
+1
+0
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(v declared as int;(v=4;(while(v>0){(Print v;v=v-1)};Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v declared as int
+(v=4;(while(v>0){(Print v;v=v-1)};Print v))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(v=4;(while(v>0){(Print v;v=v-1)};Print v))
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=4
+(while(v>0){(Print v;v=v-1)};Print v)
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(while(v>0){(Print v;v=v-1)};Print v)
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 0
+
+
+Out:
+4
+3
+2
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+v --> 0
+
+
+Out:
+4
+3
+2
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 7
+--------------
+ExeStack:
+
+
+SymTable:
+v --> 0
+
+
+Out:
+4
+3
+2
+1
+0
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v declared as int;(v=4;(while(v>0){(Print v;v=v-1)};Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v declared as int
+(v=4;(while(v>0){(Print v;v=v-1)};Print v))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v=4;(while(v>0){(Print v;v=v-1)};Print v))
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=4
+(while(v>0){(Print v;v=v-1)};Print v)
+
+
+SymTable:
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(while(v>0){(Print v;v=v-1)};Print v)
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 4
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 3
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 2
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print v;v=v-1)
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=v-1
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 1
+
+
+Out:
+4
+3
+2
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+while(v>0){(Print v;v=v-1)}
+Print v
+
+
+SymTable:
+v --> 0
+
+
+Out:
+4
+3
+2
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+v --> 0
+
+
+Out:
+4
+3
+2
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+v --> 0
+
+
+Out:
+4
+3
+2
+1
+0
+
+
+FileTable:
+
+
+HeapTable:
+

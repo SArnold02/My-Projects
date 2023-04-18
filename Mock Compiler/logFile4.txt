@@ -1,0 +1,1128 @@
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(varf declared as string;(varf=test.in;(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+varf declared as string
+(varf=test.in;(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(varf=test.in;(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))))
+
+
+SymTable:
+varf --> 
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+varf=test.in
+(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))))
+
+
+SymTable:
+varf --> 
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+Open: varf
+(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+varc declared as int
+(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))
+
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+From: varf to: varc
+(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))
+
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+Print varc
+(From: varf to: varc;(Print varc;Close file: varf))
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(From: varf to: varc;(Print varc;Close file: varf))
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+From: varf to: varc
+(Print varc;Close file: varf)
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(Print varc;Close file: varf)
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+Print varc
+Close file: varf
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+Close file: varf
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+2
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(varf declared as string;(varf=test.in;(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+varf declared as string
+(varf=test.in;(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(varf=test.in;(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))))
+
+
+SymTable:
+varf --> 
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+varf=test.in
+(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))))
+
+
+SymTable:
+varf --> 
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+Open: varf
+(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+varc declared as int
+(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))
+
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+From: varf to: varc
+(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))
+
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+Print varc
+(From: varf to: varc;(Print varc;Close file: varf))
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(From: varf to: varc;(Print varc;Close file: varf))
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+From: varf to: varc
+(Print varc;Close file: varf)
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(Print varc;Close file: varf)
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+Print varc
+Close file: varf
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+Close file: varf
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+2
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(varf declared as string;(varf=test.in;(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+varf declared as string
+(varf=test.in;(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(varf=test.in;(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))))
+
+
+SymTable:
+varf --> 
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+varf=test.in
+(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))))
+
+
+SymTable:
+varf --> 
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Open: varf;(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Open: varf
+(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(varc declared as int;(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+varc declared as int
+(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))
+
+
+SymTable:
+varf --> test.in
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(From: varf to: varc;(Print varc;(From: varf to: varc;(Print varc;Close file: varf))))
+
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+From: varf to: varc
+(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))
+
+
+SymTable:
+varf --> test.in
+varc --> 0
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print varc;(From: varf to: varc;(Print varc;Close file: varf)))
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print varc
+(From: varf to: varc;(Print varc;Close file: varf))
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(From: varf to: varc;(Print varc;Close file: varf))
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+From: varf to: varc
+(Print varc;Close file: varf)
+
+
+SymTable:
+varf --> test.in
+varc --> 1
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print varc;Close file: varf)
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print varc
+Close file: varf
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Close file: varf
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+2
+
+
+FileTable:
+test.in
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+varf --> test.in
+varc --> 2
+
+
+Out:
+1
+2
+
+
+FileTable:
+
+
+HeapTable:
+

@@ -1,0 +1,702 @@
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(v declared as Ref(int);(v alloc to 20;(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+v declared as Ref(int)
+(v alloc to 20;(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(v alloc to 20;(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))))))
+
+
+SymTable:
+v --> (0,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+v alloc to 20
+(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))))
+
+
+SymTable:
+v --> (0,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))))
+
+
+SymTable:
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+a declared as Ref(Ref(int))
+(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))))
+
+
+SymTable:
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))))
+
+
+SymTable:
+a --> (0,Ref(int))
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+a alloc to v
+(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))
+
+
+SymTable:
+a --> (0,Ref(int))
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+Print v
+(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+(1,int)
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+Print a
+(b declared as Ref(Ref(Ref(int)));b alloc to a)
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+(1,int)
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(b declared as Ref(Ref(Ref(int)));b alloc to a)
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+(1,int)
+(2,Ref(int))
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+b declared as Ref(Ref(Ref(int)))
+b alloc to a
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+(1,int)
+(2,Ref(int))
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+b alloc to a
+
+
+SymTable:
+a --> (2,Ref(int))
+b --> (0,Ref(Ref(int)))
+v --> (1,int)
+
+
+Out:
+(1,int)
+(2,Ref(int))
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+
+
+SymTable:
+a --> (2,Ref(int))
+b --> (3,Ref(Ref(int)))
+v --> (1,int)
+
+
+Out:
+(1,int)
+(2,Ref(int))
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+3 --> (2,Ref(int))
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(v declared as Ref(int);(v alloc to 20;(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+v declared as Ref(int)
+(v alloc to 20;(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(v alloc to 20;(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))))))
+
+
+SymTable:
+v --> (0,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+v alloc to 20
+(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))))
+
+
+SymTable:
+v --> (0,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(a declared as Ref(Ref(int));(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))))
+
+
+SymTable:
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+a declared as Ref(Ref(int))
+(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))))
+
+
+SymTable:
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(a alloc to v;(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))))
+
+
+SymTable:
+a --> (0,Ref(int))
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+a alloc to v
+(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))
+
+
+SymTable:
+a --> (0,Ref(int))
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(Print v;(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a)))
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+Print v
+(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(Print a;(b declared as Ref(Ref(Ref(int)));b alloc to a))
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+(1,int)
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+Print a
+(b declared as Ref(Ref(Ref(int)));b alloc to a)
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+(1,int)
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+(b declared as Ref(Ref(Ref(int)));b alloc to a)
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+(1,int)
+(2,Ref(int))
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+b declared as Ref(Ref(Ref(int)))
+b alloc to a
+
+
+SymTable:
+a --> (2,Ref(int))
+v --> (1,int)
+
+
+Out:
+(1,int)
+(2,Ref(int))
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+b alloc to a
+
+
+SymTable:
+a --> (2,Ref(int))
+b --> (0,Ref(Ref(int)))
+v --> (1,int)
+
+
+Out:
+(1,int)
+(2,Ref(int))
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+
+-------------------------
+PrgState id: 6
+--------------
+ExeStack:
+
+
+SymTable:
+a --> (2,Ref(int))
+b --> (3,Ref(Ref(int)))
+v --> (1,int)
+
+
+Out:
+(1,int)
+(2,Ref(int))
+
+
+FileTable:
+
+
+HeapTable:
+1 --> 20
+2 --> (1,int)
+3 --> (2,Ref(int))
+

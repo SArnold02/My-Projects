@@ -1,0 +1,2365 @@
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as int;(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as int
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300))))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+b declared as int
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300)))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300)))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+c declared as int
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=1
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300)))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300)))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+b=2
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300))
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+c=5
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300;Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a*10==b*c THAN (Print a;Print b) ELSE IF a*10==10 THAN (Print 100;Print 200) ELSE Print 300
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print a;Print b)
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print a
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+300
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+(a declared as int;(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+a declared as int
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+b declared as int
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+c declared as int
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+a=1
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+b=2
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+c=5
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300)
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+IF a*10==b*c THAN (Print a;Print b) ELSE IF a*10==10 THAN (Print 100;Print 200) ELSE Print 300
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+(Print a;Print b)
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+Print a
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 11
+--------------
+ExeStack:
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+300
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as int;(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as int
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+b declared as int
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+c declared as int
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=1
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+b=2
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+c=5
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300)
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a*10==b*c THAN (Print a;Print b) ELSE IF a*10==10 THAN (Print 100;Print 200) ELSE Print 300
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print a;Print b)
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print a
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+300
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as int;(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as int
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+b declared as int
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+c declared as int
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=1
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+b=2
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+c=5
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300)
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a*10==b*c THAN (Print a;Print b) ELSE IF a*10==10 THAN (Print 100;Print 200) ELSE Print 300
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print a;Print b)
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print a
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+300
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as int;(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as int
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(b declared as int;(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+b declared as int
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(c declared as int;(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+c declared as int
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=1;(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=1
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))
+
+
+SymTable:
+a --> 0
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(b=2;(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+b=2
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))
+
+
+SymTable:
+a --> 1
+b --> 0
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(c=5;(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300))
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+c=5
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300);Print 300)
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+switch(a*10)(b*c:(Print a;Print b))(10:(Print 100;Print 200))(default:Print 300)
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a*10==b*c THAN (Print a;Print b) ELSE IF a*10==10 THAN (Print 100;Print 200) ELSE Print 300
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(Print a;Print b)
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print a
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print b
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print 300
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> 1
+b --> 2
+c --> 5
+
+
+Out:
+1
+2
+300
+
+
+FileTable:
+
+
+HeapTable:
+
+
+SemaphoreTable:
+

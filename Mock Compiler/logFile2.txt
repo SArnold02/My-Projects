@@ -1,0 +1,396 @@
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+(a declared as int;(b declared as int;(a=2+3*5;(b=a+1;Print b))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+a declared as int
+(b declared as int;(a=2+3*5;(b=a+1;Print b)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+(b declared as int;(a=2+3*5;(b=a+1;Print b)))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+b declared as int
+(a=2+3*5;(b=a+1;Print b))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+(a=2+3*5;(b=a+1;Print b))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+a=2+3*5
+(b=a+1;Print b)
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+(b=a+1;Print b)
+
+
+SymTable:
+a --> 17
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+b=a+1
+Print b
+
+
+SymTable:
+a --> 17
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+Print b
+
+
+SymTable:
+a --> 17
+b --> 18
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 3
+--------------
+ExeStack:
+
+
+SymTable:
+a --> 17
+b --> 18
+
+
+Out:
+18
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(a declared as int;(b declared as int;(a=2+3*5;(b=a+1;Print b))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+a declared as int
+(b declared as int;(a=2+3*5;(b=a+1;Print b)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(b declared as int;(a=2+3*5;(b=a+1;Print b)))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+b declared as int
+(a=2+3*5;(b=a+1;Print b))
+
+
+SymTable:
+a --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(a=2+3*5;(b=a+1;Print b))
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+a=2+3*5
+(b=a+1;Print b)
+
+
+SymTable:
+a --> 0
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+(b=a+1;Print b)
+
+
+SymTable:
+a --> 17
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+b=a+1
+Print b
+
+
+SymTable:
+a --> 17
+b --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+Print b
+
+
+SymTable:
+a --> 17
+b --> 18
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 4
+--------------
+ExeStack:
+
+
+SymTable:
+a --> 17
+b --> 18
+
+
+Out:
+18
+
+
+FileTable:
+
+
+HeapTable:
+

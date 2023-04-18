@@ -1,0 +1,1570 @@
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(a declared as bool;(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+a declared as bool
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+v declared as int
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+a=true
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+IF a THAN v=2 ELSE v=3
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+v=2
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 2
+--------------
+ExeStack:
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as bool;(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as bool
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v declared as int
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=true
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a THAN v=2 ELSE v=3
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=2
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as bool;(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as bool
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v declared as int
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=true
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a THAN v=2 ELSE v=3
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=2
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as bool;(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as bool
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as bool;(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as bool
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v declared as int
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=true
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a THAN v=2 ELSE v=3
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=2
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as bool;(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as bool
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v declared as int
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=true
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a THAN v=2 ELSE v=3
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=2
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as bool;(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as bool
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v declared as int
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=true
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a THAN v=2 ELSE v=3
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=2
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+2
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a declared as bool;(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v))))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a declared as bool
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(v declared as int;(a=true;(IF a THAN v=2 ELSE v=3;Print v)))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v declared as int
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(a=true;(IF a THAN v=2 ELSE v=3;Print v))
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+a=true
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> false
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+(IF a THAN v=2 ELSE v=3;Print v)
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+IF a THAN v=2 ELSE v=3
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+v=2
+Print v
+
+
+SymTable:
+a --> true
+v --> 0
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+Print v
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+
+
+FileTable:
+
+
+HeapTable:
+
+-------------------------
+PrgState id: 1
+--------------
+ExeStack:
+
+
+SymTable:
+a --> true
+v --> 2
+
+
+Out:
+2
+
+
+FileTable:
+
+
+HeapTable:
+
